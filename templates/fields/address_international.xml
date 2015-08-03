@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FIELD>
+  <title>consignee_address</title>
+    <title_buttons>
+        <a id="clear_consignee" class="shipon_button shipon_titlebutton" onclick="address_clear(this)">Clear</a>
+    </title_buttons>
+    <content>
+        <block width="100%">
+            <label class="shipon_label">address_name</label>
+            <input type="text" id="shipon_name" name="shipon_name" class="shipon_input shipon_autocomplete"></input>
+        </block>
+		
+		<block width="100%">
+            <label class="shipon_label">address_contact</label>
+            <input type="text" id="shipon_contact" name="shipon_contact" class="shipon_input shipon_autocomplete"></input>
+        </block>
+
+        <block width="70%">
+            <label class="shipon_label">address_phone</label>
+            <input type="text" id="shipon_phone" name="shipon_phone" class="shipon_input" onKeyDown="formatTelNo (this);"></input>
+        </block>
+
+        <block width="30%">
+            <label>address_phone_ext</label>
+            <input type="text" id="shipon_phone_ext" name="shipon_phone_ext" class="shipon_input"></input>
+        </block>
+
+        <block width="100%">
+            <label class="shipon_label">address_email</label>
+            <input type="text" id="shipon_email" name="shipon_email" class="shipon_input"></input>
+        </block>
+
+        <block width="100%">
+            <label class="shipon_label">address_street1</label>
+            <input type="text" id="shipon_street1" name="shipon_street1" class="shipon_input"></input>
+        </block>
+
+        <block width="100%">
+            <label class="shipon_label">address_street2</label>
+            <input type="text" id="shipon_street2" name="shipon_street2" class="shipon_input"></input>
+        </block>
+
+        <block width="100%">
+            <label class="shipon_label">address_city</label>
+            <input type="text" id="shipon_city" name="shipon_city" class="shipon_input"></input>
+        </block>
+
+        <block width="100%">
+            <label class="shipon_label">address_province</label>
+            <input type="text" id="shipon_province" name="shipon_province" class="shipon_input shipon_autocomplete"  autocomplete_type="province" modifier="shipon_country"></input>
+        </block>
+
+        <block width="60%">
+            <label for="shipon_country" class="shipon_label">address_country</label>
+			<LIST_OF_COUNTRIES>
+				<select id="shipon_country" name="shipon_country" class="shipon_select">
+				</select>
+			</LIST_OF_COUNTRIES>
+        </block>
+
+        <block width="40%">
+            <label>address_postal</label>
+            <input type="text" id="shipon_postal" name="shipon_postal" class="shipon_input" maxlength="6" ></input>
+        </block>
+
+        <block width="100%">
+            <a class="address_save shipon_button" onclick="shipon_address_new_save(this)"> Save </a>
+            <span id="shipon_save"></span>
+        </block>
+    </content>
+</FIELD>

@@ -1,0 +1,294 @@
+@charset "utf-8";
+.ui-dialog,
+.ui-datepicker,
+#shipon_wrapper         
+{
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+#shipon_wrapper form    {margin: 0;}
+
+#shipon_header          {width: 100%; text-align: center;}
+#shipon_content         {width: 100%; overflow: hidden;}
+#shipon_content label   {float: left;}
+
+#shipon_header_controls {float: right;}
+
+.shipon_row             {width: 100%; clear: both; overflow: hidden;}
+.shipon_column			{float: left;}
+.shipon_field           {float: left;}
+
+.shipon_titlebuttons    {float: right;}
+
+.shipon_input           {margin: 0;}
+.shipon_link			{color: #03F !important; text-decoration: underline; font-weight: bold;}
+.shipon_link:hover		{color: #09F !important; text-decoration: underline;}
+.shipon_slider			{float: left;}
+.shipon_fieldblock      {float: left;}
+.shipon_details_block   {float: left;}
+.shipon_fieldblock hr   {margin: 3px 0;}
+.shipon_fieldblock select {-webkit-appearance: menulist-button;}
+.shipon_fieldblock select:disabled {-webkit-appearance: none;}
+
+.shipon_td_container {margin: 0 auto;}
+
+.ui-dialog-titlebar,
+.ui-datepicker-header,
+.ui-widget-header,
+{
+    overflow: hidden;
+    padding: 5px 5px 0 5px !important;
+    border: none;
+    background: none;
+    border-radius: 0;
+}
+
+.shipon_title
+{
+    padding: 0px 5px 0 5px !important;
+    border: none;
+    background: none;
+    border-radius: 0;
+}
+
+.ui-dialog-titlebar {cursor: default !important;}
+
+.dialog_action {float: right;}
+
+.shipon_label {float: left;}
+
+.shipon_titletext       {float: left; padding-top: 5px;}
+
+.ui-dialog,
+.shipon_field_container
+{
+    padding: 0;
+    overflow: hidden;
+}
+
+.ui-dialog-content,
+.shipon_field_content
+{
+    margin: 5px !important;
+    padding: 5px !important;
+    overflow: hidden;
+}
+
+.address_save   {float: left;}
+#switch         {float: right;}
+
+.shipon_button
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+}
+
+.shipon_radio label
+{
+    border: 0 !important;
+}
+
+.shipon_textarea {resize: none;}
+
+.shipon_header_button
+{
+    float: left;
+    text-align:center;
+}
+
+#shipon_pages {margin: 5px; overflow: hidden;}
+
+#shipon_prev_links {width: 33%; float: left; text-align: left;}
+#shipon_page_links {width: 34%; float: left; text-align: center;}
+#shipon_next_links {width: 33%; float: right; text-align: right;}
+
+.shipon_button:hover
+{
+    cursor: pointer;
+}
+
+.shipon_disabled
+{
+    background: none !important;
+    border: 0 !important;
+}
+
+#shipon_content textarea {overflow: auto;}
+
+#shipon_back,
+.shipon_accounts_button
+{
+    float: left;
+}
+
+#shipon_continue
+{
+    float: right;
+}
+
+#shipon_goods_close
+{
+    width: 10px;
+}
+
+#shipon_goods_table th
+{
+    font-size: 12px;
+    font-weight:normal;
+}
+
+#shipon_goods_table td
+{
+	margin: 0 auto;
+}
+
+#shipon_address_book, 
+#shipon_history,
+#shipon_accounts,
+#shipon_tracking,
+#shipon_goods_table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#shipon_history th,
+#shipon_accounts th,
+#shipon_tracking th
+{
+    font-weight:normal;
+    text-align:left;
+}
+
+.shipon_history_button
+{
+    float: left;
+    padding: 5px;
+    margin: 2px;
+}
+
+.shipon_addressbook_button
+{
+    float: left;
+    text-align: center;
+}
+
+.shipon_delete_message
+{
+    z-index: 1000;
+    position:absolute;
+    text-align: center;
+}
+
+.shipon_address_data,
+.shipon_address_controls,
+.shipon_history_data,
+.shipon_history_controls
+{
+    overflow: hidden;
+}
+
+#shipon_address_book_buttons,
+#shipon_address_backup {display: none;}
+
+.shipon_default_address .shipon_address_delete {visibility: hidden;}
+
+#shipon_overlay
+{
+    z-index: 1001;
+    position:absolute;
+}
+
+#shipon_loading
+{
+    display:none;
+    
+    z-index: 1002;
+    position:absolute;    
+}
+
+.filler
+{
+    height: 23px;
+    display: block;   
+}
+
+.ui-button-text-only .ui-button-text 
+{
+    padding: 0;
+}
+
+.ui-buttonset
+{
+    margin: 0;
+}
+
+.ui-accordion-header
+{
+    display: block;
+    border-radius: 0;
+}
+
+.ui-widget-content,
+.ui-state-default,
+.ui-state-active,
+.ui-state-hover
+{
+    border: 0; 
+}
+
+.ui-autocomplete
+{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.ui-menu-item
+{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+.ui-menu-item a
+{
+    margin: 0;
+    padding: 0 !important;
+}
+
+.ui-datepicker
+{
+    padding: 0 5px 5px 5px;
+}
+
+.ui-datepicker th
+{
+    padding: 5px 0;
+}
+
+.ui-datepicker-calendar
+{
+    margin: 0 !important;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next
+{
+    width: 22px !important;
+    height: 22px !important;
+    margin-top: 4px;
+}
+
+.clear {clear: both;}
+
+.ui-datepicker-buttonpane {margin: 0 !important;}
+
+.ui-timepicker-div dl {margin: 0; overflow: hidden;}
+.ui-timepicker-div dt {display: inline-block; float: left; clear: both;}
+.ui-timepicker-div dd {float: left;}

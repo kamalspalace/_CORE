@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ERROR>
+	<email>dbulatov@jtec.ca</email>
+	<LAYOUT>
+		<row>
+			<title>Customer</title>
+			<data key='client'>user</data>
+		</row>
+		<row>
+			<title>User</title>
+			<data key='name'>user</data>
+		</row>
+		<row>
+			<title>Action</title>
+			<data>action</data>
+		</row>
+		<row>
+			<title>View Action</title>
+			<data>view_action</data>
+		</row>
+		<row>
+			<title>Error Message</title>
+			<data>error_message</data>
+		</row>
+	</LAYOUT>
+</ERROR>
